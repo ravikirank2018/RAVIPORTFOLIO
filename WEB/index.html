@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ravi Kiran</title>
+    <link rel="stylesheet" href="glass-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="animated-background"></div>
+
+    <div class="container">
+        <header>
+            <h1>Ravi Kiran</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about" class="glass-card fade-in">
+                <h2>About Me</h2>
+                <img src="C:\Users\ABC\WEB\1724918438133.jpeg" alt="Ravi Kiran" class="profile-image">
+                <p>I'm a Computer Science student specializing in AI/ML and software development. Passionate about cybersecurity, cloud computing, and building impactful solutions using technology.</p>
+            </section>
+
+            <section id="experience" class="glass-card fade-in">
+                <h2>Experience</h2>
+                <ul>
+                    <li><strong>Data Science Intern at Eduskills</strong> (Sep 2023 - Nov 2023): Worked on AI/ML projects, developed machine learning models, and enhanced data analysis skills.</li>
+                    
+                </ul>
+            </section>
+
+            <section id="projects" class="glass-card fade-in">
+                <h2>Projects</h2>
+
+                <div class="project">
+                    <h3>Cyhack - Real-Time Cyber Incident Monitoring</h3>
+                    <img src="C:\Users\ABC\WEB\Picture1.jpg" alt="Cyhack Dashboard" class="project-image">
+                    <p>Developed a real-time tool for monitoring cyber incidents in the Indian Cyber Space using AI-based predictive analysis. Integrated with cloud solutions for on-time alerts and dashboard visualization.</p>
+                    <img src="C:\Users\ABC\WEB\Picture2.jpg" alt="Cyhack Visualization" class="project-image">
+                </div>
+
+                <div class="project">
+                    <h3>Breakout Ball Game</h3>
+                    <img src="C:\Users\ABC\WEB\1726925399441.jpeg" alt="Breakout Ball Game" class="project-image">
+                    <p>Created a Java game using Object-Oriented Programming (OOP) principles, featuring a dynamic user interface and smooth gameplay.</p>
+                </div>
+
+                <div class="project">
+                    <h3>Library Management System</h3>
+                    <p>Developed a comprehensive system using Java, incorporating OOP concepts to manage book inventories, member registrations, and search functionalities.</p>
+                </div>
+            </section>
+
+            <section id="skills" class="glass-card fade-in">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Programming Languages: Python, Java, C, SQL</li>
+                    <li>Web Technologies: HTML, CSS, JavaScript</li>
+                    <li>Tools & Technologies: AWS, MySQL, Git, Dash, Plotly</li>
+                    <li>Soft Skills: Problem Solving, Teamwork, Communication</li>
+                </ul>
+            </section>
+
+            <section id="contact" class="glass-card fade-in">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:rkiran@gitam.in">rkiran@gitam.in</a></p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/ravi-kiran-54940125b" target="_blank">Ravi Kiran</a></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Ravi Kiran - All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Smooth scroll for links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
